@@ -6,7 +6,8 @@
   "author": "Gabriel Cesar <gabrielcesar.a.l@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf build/ && sucrase ./src -d ./build --transforms imports"
+    "build": "rm -rf build/ && sucrase ./src -d ./build --transforms imports",
+    "test": "node build/__test__/index.test.js"
   },
   "devDependencies": {
     "eslint": "^7.7.0",
