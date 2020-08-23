@@ -46,7 +46,7 @@ export const buildGitInfo = async () => {
 };
 
 const generateGitProperties = async (
-  options = { destFile: path.resolve("./") + "/git.properties" }
+  options = { destFile: path.resolve("./") + "/git.properties.json" }
 ) => {
   const data = await buildGitInfo();
   await fs.writeFile(options.destFile, JSON.stringify(data), {
