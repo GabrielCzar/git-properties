@@ -27,7 +27,7 @@ async () => {
   commit: {
     message: "update README.md",
     id: "8c7f48581094cb1e9ce68f33f2631e3bd7927591",
-    time: "2020-08-23T00:00:00-0000",
+    time: "2020-08-23T00:00:00.000Z",
     user: { name: "User", email: "user@email.com" },
   },
 }

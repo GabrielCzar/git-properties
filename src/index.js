@@ -28,11 +28,11 @@ export const retrieveCommit = async () => {
       user: { name: UNKNONW, email: UNKNONW },
     };
   }
-  const [id, name, email, time, message] = stdout.split(",");
+  const [id, name, email, timeString, message] = stdout.split(",");
   return {
     message,
     id,
-    time,
+    time: new Date(timeString).toISOString(),
     user: { name, email },
   };
 };
