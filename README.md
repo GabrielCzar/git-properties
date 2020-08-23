@@ -21,6 +21,8 @@ async () => {
 
 #### Example output:
 
+> git.properties.json
+
 ```json5
 {
   branch: "master",
