@@ -1,3 +1,4 @@
 **/__test__/
-*.properties
+*.properties.json
 src/**
+coverage/
